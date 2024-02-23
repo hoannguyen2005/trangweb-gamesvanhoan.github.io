@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: beige;
+        }
+
+        header img {
+            width: 100px;
+            height: 100px;
+            margin: 50px;
+        }
+
+        header h1 {
+            font-size: 40px;
+            color: blue;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        header h2 {
+            margin-top: 10px;
+            font-size: 35px;
+            color: #222;
+            text-align: center;
+        }
+        main table tr th, td{
+            border: solid 2px black;
+            background: #fff;
+        
+        }
+        main table{
+            border-collapse: collapse;
+            border-collapse:collapse ;
+            display: table;
+            margin-left: auto;
+            margin: auto;
+        }
+        main #A{
+            background: red;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="images/logoDN.jpg" alt="">
+        <h1>THÔNG TIN TUYỂN SINH 2023</h1>
+        <H1>Mã trường Đại học Đại Nam</H1>
+        <h2>Đối với chương trình đại trà</h2>
+    </header>
+    <main>
+        <table>
+            <tr>
+              <th>TT</th> 
+                <th>Ngành học</th>
+                <th>Mã Ngành</th>
+                <th>Tổ hợp xét tuyển</th>
+                <th>Thời gian đào tạo</th>
+                <th>Chỉ tiêu</th>
+            </tr>
+            <tr>
+                <th colspan="6" id="A">A. NGÀNH KHỐI SỨC KHỎE</th>
+            </tr>
+            <TR>
+                <TD>1</TD>
+                <TD>Y khoa</TD>
+                <TD>7720101</TD>
+                <TD>A00</TD>
+                <TD>6 năm</TD>
+                <TD>380</TD>
+            </TR>
+            <TR>
+                <TD>2</TD>
+                <TD>Dược học</TD>
+                <TD>7720201</TD>
+                <TD>A00</TD>
+                <TD>4,5 năm</TD>
+                <TD>700</TD>
+            </TR>
+            <TR>
+                <TD>3</TD>
+                <TD>Điều dưỡng</TD>
+                <TD>7720301</TD>
+                <TD>B00</TD>
+                <TD>3,5 năm</TD>
+                <TD>200</TD>
+            </TR>
+            <tr>
+                <th colspan="6">B. KHỐI NGÀNH KỸ THUẬT - CÔNG NGHỆ</th>
+            </tr>
+            <TR>
+                <TD>4</TD>
+                <TD>Công nghệ thông tin</TD>
+                <TD>7480201</TD>
+                <TD>A00</TD>
+                <TD>3,5 năm</TD>
+                <TD>500</TD>
+            </TR>
+            <TR>
+                <TD>5</TD>
+                <TD>Khoa học máy tính</TD>
+                <TD>7480101</TD>
+                <TD>A00</TD>
+                <TD>4 năm</TD>
+                <TD>300</TD>
+            </TR>
+            <TR>
+                <TD>6</TD>
+                <TD>Công nghệ kỹ thuật oto</TD>
+                <TD>75102054</TD>
+                <TD>A00</TD>
+                <TD>4,5 năm</TD>
+                <TD>250</TD>
+            </TR>
+            <tr>
+                <th></th>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <h1>
+            ĐĂNG KÍ XÉT TUYỂN</h1>
+            <p>Đăng ký để nhận tư vấn</p>
+        <form action="">
+            <input type="text" name="fname" value="Họ và tên">
+            <label for=""> Ngày sinh</label>
+            <input type="date" name="đate" >
+            <input type="date" name="phone">
+            <input type="email"name="name">
+            <input type="text" name="address">
+            <label for="">
+                Chọn ngành muốn học
+            </label>
+            <select name="" id="">
+                <option value="">Y KHOA</option>
+                <option value="">Dược học</option>
+                <option value="">Điều dưỡng</option>
+                <option value="">CNTT</option>
+                <option value="">KHMT</option>
+                <option value="">CKO</option>
+            </select><br>
+            <input type="submit" value="Hoàn thành đăng ký">
+            <button>Hoàn thành đăng ký</button>
+        </form>
+    </footer>
+</body>
+
+</html>
