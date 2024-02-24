@@ -5,28 +5,24 @@
 }
 
 html {
-    font-family: serif;
     scroll-behavior: smooth;
 }
 
-.clear {
-    clear: both;
+body {
+  
 }
 
-body {
-    
-  }
-
-
 #main {
-    width: 1400px;
-    padding-top: 20px;
-    padding-left: 220px;
-    padding-right: 100px;
+    
 }
 
 #header {
 
+    width: 1400px;
+    padding-top: 20px;
+    padding-left: 220px;
+    padding-right: 100px;
+    
 }
 
 #nav {
@@ -40,7 +36,6 @@ body {
 }
 
 #nav li a {
-    font-weight: 500;
     line-height: 56px;
     text-decoration: none;
     color: red;
@@ -51,6 +46,32 @@ body {
 #nav li:hover a {
     color: #aa9efc;
     transition: .4s all ease;
+}
+
+#nav li::after a {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #0051ff;
+    transform-origin: bottom right ;
+    transition: transform .5s ease-out;
+}
+
+#nav li:hover::after a {
+    transform: scaleX(1);
+    transform-origin: bottom left ;
+}
+
+#nav .lg-sg a {
+    background-color: #f33de6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
 }
 
 .js-btn-card {
@@ -88,207 +109,166 @@ body {
     transform-origin: bottom left ;
 }
 
-#nav li::after a {
-    content: "";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: -5px;
-    left: 0;
-    background-color: #0051ff;
-    transform-origin: bottom right ;
-    transition: transform .5s ease-out;
+#nav1 {
+    width: 1400px;
+    padding-top: 20px;
+    padding-left: 220px;
+    padding-right: 100px;
 }
 
-#nav li:hover::after a {
-    transform: scaleX(1);
-    transform-origin: bottom left ;
+#nav1 .header-menu {
+    font-size: 20px;
+    margin-bottom: 16px;
 }
 
-#nav .lg-sg a {
-    background-color: #f33de6;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    padding: 4px;
+.menu1 {
+    list-style: none;
+    padding: 16px;
+    width: 222px;
 }
 
-#slider {
-    text-align: center;
-    background: url('https://cdns.diongame.com/static/image-cb500504-e9db-4ad9-86ee-0490de41b5f3.png') top center / cover no-repeat;
-    width: 1150px;
-    height: 600px;
-    margin-top: 36px;
-    border-radius: 4px;
-    margin-left: -36px;
+.menu1 li {
+    margin: 10px 0;
+    padding: 7px 0;
 }
 
-#content {
-
+.menu1 a {
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    margin: 8px 0;
+    padding: 0 0 10px 0;
+    border-left: 4px solid #32c5d2;
+    border-radius: 50%;
+    color: black;
 }
 
-marquee {
-    text-align: center;
-    padding: 4px;
-    width: 100%;
-    margin-top: 36px;
-    font-size: 150%;
-    background-color: #ff849a;
-    color: #000ccf;
-    border: 2px solid #000;
-    border-radius: 12px;
-    border-color: red;
-    font-style: italic;
-    font-family: "Poppins", sans-serif;
-    font-family: Cambria;
+a.history-gd {
+    color: #32c5d2;
 }
 
-.text-heading {
-    font-size: 160%;
-    color: #18d1c7;
-    text-align: center;
-    margin-top: 50px;
-    border-bottom: 2px solid #001cf4;
-    padding-bottom: 28px;
-    width: 300px;
-    margin-left: 400px;
-}
-
-.text-content {
-    margin-top: 36px;
-}
-
-#content .list-gif {
-    text-align: center;
-    display: inline-block;
-    border: 1px solid #ccc;
-    padding: 1px 1px 36px 1px;
-    margin-left: 6px;
-    transition: transform .2s;
-}
-#content .list1-gif:hover,
-#content .list-gif:hover {
-    transform: scale(1.05);
-    border: 1px solid gray;
+.menu1 a:hover {
+    color: #32c5d2;
     transition: .4s;
 }
 
-#content .list-gif img {
-    width: 257px;
-    height: 168px;
+.menu1 .header-menu {
+    font-size: 20px;
+    border-left: 6px solid #32c5d2;
+    padding: 0 0 0 10px;
+    color: #0051ff;
+    margin-bottom: 16px;
 }
 
-#content .list-gif .text-header{
-    font-size: 16px;
-    margin-top: 10px;
-    color: orange;
-    cursor: pointer;
+.history-gd-card {
+    margin-left: 300px;
+    position: absolute;
+    top: 16%;
+    width: 115px;
+}
+
+.history-gd-card .header-history {
+    font-size: 178%;
+    border-bottom: 3px solid red;
     font-weight: 600;
-}
-#content .list1-gif .text-header:hover,
-#content .list-gif .text-header:hover {
-    opacity: .7;
-}
-
-.list-gif .text-participations {
-    font-size: 15px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: -15px;
+    margin-left: 195px;
+    width: 283px;
+    padding: 20px 0;
 }
 
-.list-gif .check-all {
-    font-size: 15px;
-    padding: 6px 62px;
-    text-decoration: none;
-    border: 2px solid #ccc;
-    margin-bottom: 16px;
-    color: #000;
-    border-radius: 8px;
+.input-denominations {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
 }
 
-.list-gif .check-all:hover {
-    border-color: #f14280;
-    color: red;
-    transition: .5s;
-}
-
-#content .list1-gif {
-    text-align: center;
+.text-history {
+    margin-left: 150px;
     display: inline-block;
+    font-size: 18px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gd {
     border: 1px solid #ccc;
-    padding: 1px 1px 36px 1px;
-    margin-left: 6px;
-    margin-top: 16px;
-    cursor: pointer;
-    transition: transform .2s;
+    padding: 8px 16px;
+    margin-left: 44px;
+    background-color: #f6f6f6;
 }
 
-#content .list1-gif img {
-    width: 257px;
-    height: 168px;
+.from-date {
+    margin-right: 30px;
+    margin-top: 23px;
 }
 
-#content .list1-gif .text-header{
-    font-size: 16px;
-    margin-top: 10px;
-    color: orange;
-    font-weight: 600;
+.history-date {
+    display: flex;
 }
 
-.list1-gif .text-participations {
-    font-size: 15px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+.to-date {
+    margin-right: 30px;
+    margin-top: 23px;
 }
 
-.list1-gif .text-price {
-    font-size: 15px;
-    margin-bottom: 22px;
-    border: 3px solid red;
-    padding: 6px 0px;
-    width: 120px;
-    margin-left: 68px;
-    border-radius: 4px;
+input[type="date"] {
+    padding: 10px 8px 10px 8px;
 }
 
-.list1-gif .check-all {
-    font-size: 15px;
-    padding: 6px 62px;
+.ti-calendar {
+    margin-right: 10px;
+}
+
+.search-history {
+    margin: 26px 194px;
+    width: 900px;
+}
+
+.search-btn {
+    font-size: 18px;
+    color: #ffffff;
+    background: #32c5d2;
+    border-color: #32c5d2;
+    padding: 8px 8px;
     text-decoration: none;
-    border: 2px solid #ccc;
-    margin-bottom: 16px;
-    color: #000;
-    border-radius: 8px;
 }
 
-.list1-gif .check-all:hover {
-    border-color: #f14280;
-    color: red;
-    transition: .5s;
+.search-btn:hover {
+    opacity: .8;
 }
 
-.content-ft {
+.all-btn {
+    font-size: 18px;
+    color: #ffffff;
+    background: #e7505a;
+    border-color: #e7505a;
+    padding: 8px 21px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.all-btn:hover {
+    opacity: .8;
+}
+
+ul.time-history {
+    display: flex;
+    justify-content: space-between;
     margin-top: 36px;
-    border-top: 2px solid #00e1ff;
-    border-bottom: 2px solid #00e1ff;
-    
-}
-
-.content-ft img {
-    margin: 36px 16px;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    border-color: red;
-    width: 235px;
-    height: 90px;
-    
+    border-top: 1px solid #ccc;
+    padding: 16px 0;
+    font-size: 17px;
+    color: #727272;
+    list-style: none;
+    font-weight: 550;
 }
 
 #footer {
     background:linear-gradient(to right, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
     height: 333px;
-    margin-top: 36px;
+    margin-top: 126px;
 }
 
 #footer .text-footer {
@@ -443,7 +423,7 @@ marquee {
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(0,0,0,.4);
+    background-color: rgba(0,0,0,.4);
 }
 
 #modal.open {
@@ -452,10 +432,10 @@ marquee {
 
 
 #modal .container {
+    animation: modalFadein ease .5s;
     background-color: #fff;
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
     width: 641px;
-    animation: modalFadein ease .5s;
 }
 
 .header-modal {
@@ -520,7 +500,7 @@ marquee {
 @keyframes modalFadein {
     from {
         opacity: 0.2;
-        transform: translateY(-100px);
+        transform: translateY(-130px);
     }
 
     to {
@@ -630,7 +610,6 @@ td {
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
     height: 250px;
     width: 350px;
-    border-radius: 4px;
     background-color: #fff;
 }
 
@@ -676,9 +655,8 @@ td {
 .roll {
     position: fixed;
     right: 0;
-    bottom: 5%;
+    bottom: 16%;
     margin-right: 50px;
-    opacity: .8;
 }
 
 .ti-arrow-up {
@@ -698,11 +676,3 @@ td {
 .roll a {
     text-decoration: none;
 }
-
-
-
-
-
-
-
-

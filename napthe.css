@@ -9,24 +9,21 @@ html {
     scroll-behavior: smooth;
 }
 
-.clear {
-    clear: both;
-}
-
 body {
-    
-  }
+
+}
 
 
 #main {
+    
+}
+
+#header {
     width: 1400px;
     padding-top: 20px;
     padding-left: 220px;
     padding-right: 100px;
-}
-
-#header {
-
+    
 }
 
 #nav {
@@ -114,181 +111,220 @@ body {
     padding: 4px;
 }
 
-#slider {
-    text-align: center;
-    background: url('https://cdns.diongame.com/static/image-cb500504-e9db-4ad9-86ee-0490de41b5f3.png') top center / cover no-repeat;
-    width: 1150px;
-    height: 600px;
-    margin-top: 36px;
-    border-radius: 4px;
-    margin-left: -36px;
+#nav1 {
+    width: 1400px;
+    padding-top: 20px;
+    padding-left: 220px;
+    padding-right: 100px;
 }
 
-#content {
-
+#nav1 .header-menu {
+    font-size: 20px;
+    margin-bottom: 16px;
 }
 
-marquee {
-    text-align: center;
-    padding: 4px;
-    width: 100%;
-    margin-top: 36px;
-    font-size: 150%;
-    background-color: #ff849a;
-    color: #000ccf;
-    border: 2px solid #000;
-    border-radius: 12px;
-    border-color: red;
-    font-style: italic;
-    font-family: "Poppins", sans-serif;
-    font-family: Cambria;
+.menu1 {
+    list-style: none;
+    padding: 16px;
+    width: 222px;
 }
 
-.text-heading {
-    font-size: 160%;
-    color: #18d1c7;
-    text-align: center;
-    margin-top: 50px;
-    border-bottom: 2px solid #001cf4;
-    padding-bottom: 28px;
-    width: 300px;
-    margin-left: 400px;
+.menu1 li {
+    margin: 10px 0;
+    padding: 7px 0;
 }
 
-.text-content {
-    margin-top: 36px;
+.menu1 a {
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    margin: 8px 0;
+    padding: 0 0 10px 0;
+    border-left: 4px solid #32c5d2;
+    border-radius: 50%;
+    color: black;
 }
 
-#content .list-gif {
-    text-align: center;
-    display: inline-block;
-    border: 1px solid #ccc;
-    padding: 1px 1px 36px 1px;
-    margin-left: 6px;
-    transition: transform .2s;
+a.napthe {
+    color: #32c5d2;
 }
-#content .list1-gif:hover,
-#content .list-gif:hover {
-    transform: scale(1.05);
-    border: 1px solid gray;
+
+.menu1 a:hover {
+    color: #32c5d2;
     transition: .4s;
 }
 
-#content .list-gif img {
-    width: 257px;
-    height: 168px;
+.menu1 .header-menu {
+    font-size: 20px;
+    border-left: 6px solid #32c5d2;
+    padding: 0 0 0 10px;
+    color: #0051ff;
+    margin-bottom: 16px;
 }
 
-#content .list-gif .text-header{
-    font-size: 16px;
-    margin-top: 10px;
-    color: orange;
-    cursor: pointer;
+.recharge-card {
+    margin-left: 300px;
+    position: absolute;
+    top: 16%;
+    width: 115px;
+}
+
+.recharge-card .header-card {
+    padding: 16px 0;
+    font-size: 165%;
+    border-bottom: 3px solid red;
     font-weight: 600;
 }
-#content .list1-gif .text-header:hover,
-#content .list-gif .text-header:hover {
-    opacity: .7;
+
+
+.recharge-table {
+    margin-top: 46px;
+    margin-left: 195px;
+    width: 400px;
+    padding: 16px;
 }
 
-.list-gif .text-participations {
-    font-size: 15px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
-
-.list-gif .check-all {
-    font-size: 15px;
-    padding: 6px 62px;
-    text-decoration: none;
-    border: 2px solid #ccc;
-    margin-bottom: 16px;
-    color: #000;
-    border-radius: 8px;
-}
-
-.list-gif .check-all:hover {
-    border-color: #f14280;
+.recharge-table .recharge-table-attention {
+    font-size: 18px;
     color: red;
-    transition: .5s;
 }
 
-#content .list1-gif {
-    text-align: center;
+.text-card {
+    margin-left: 150px;
     display: inline-block;
-    border: 1px solid #ccc;
-    padding: 1px 1px 36px 1px;
-    margin-left: 6px;
-    margin-top: 16px;
-    cursor: pointer;
-    transition: transform .2s;
+    font-size: 18px;
+    width: 480px;
 }
 
-#content .list1-gif img {
-    width: 257px;
-    height: 168px;
+.input-name {
+
 }
 
-#content .list1-gif .text-header{
-    font-size: 16px;
-    margin-top: 10px;
-    color: orange;
-    font-weight: 600;
+.input-card {
+    margin-top: 18px;
 }
 
-.list1-gif .text-participations {
-    font-size: 15px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+
+.input-denominations {
+    margin-top: 18px;
 }
 
-.list1-gif .text-price {
-    font-size: 15px;
-    margin-bottom: 22px;
-    border: 3px solid red;
-    padding: 6px 0px;
-    width: 120px;
-    margin-left: 68px;
-    border-radius: 4px;
+.input-card-number {
+    margin-top: 18px;
+
 }
 
-.list1-gif .check-all {
-    font-size: 15px;
-    padding: 6px 62px;
-    text-decoration: none;
-    border: 2px solid #ccc;
-    margin-bottom: 16px;
-    color: #000;
-    border-radius: 8px;
+.input-card-serial {
+    margin-top: 18px;
+
 }
 
-.list1-gif .check-all:hover {
-    border-color: #f14280;
-    color: red;
-    transition: .5s;
+.input-Security {
+    margin-top: 18px;
+    display: flex;
 }
 
-.content-ft {
+input.nttk {
+    margin: 0 14px;
+    width: 76%;
+}
+
+
+select.lt {
+    margin: 0px 13px;
+    width: 76%;
+}
+
+select.mg {
+    margin: 0 0px 0px 95px;
+    width: 76%;
+    padding: 6px 12px;
+}
+
+input.nst {
+    width: 76%;
+    margin: 0 12px;
+}
+
+input.nss {
+    margin: 0 11px;
+    width: 76%;
+}
+
+.mbv {
+    margin: 0 12px 0 -23px;
+}
+
+input.mbvinput {
+    width: 68%;
+    margin: 0 0 0 7px;
+}
+
+label.lb-lt {
+    margin: 1px 1px 1px 12px;
+}
+
+label.lb-mg {
+    margin: 1px 1px 1px 5px;
+}
+
+label.lb-mst {
+    margin: 1px 1px 1px 3px;
+}
+
+label.lb-ss {
+    margin: 1px 1px 1px 12px;
+}
+
+.maso {
+    border: 1px solid red;
+    padding: 6px;
+    background-color: red;
+    margin-right: 20px;
+    color: #fff;
+}
+
+.card-btn {
+    padding: 8px 159px;
     margin-top: 36px;
-    border-top: 2px solid #00e1ff;
-    border-bottom: 2px solid #00e1ff;
-    
+    margin-left: 87px;
+    border: none;
+    color: #ffffff;
+    background: #32c5d2;
+    border-color: #32c5d2;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
-.content-ft img {
-    margin: 36px 16px;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    border-color: red;
-    width: 235px;
-    height: 90px;
-    
+.card-btn:hover {
+    opacity: .8;
+    transition: .4s;
+}
+
+.result {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 60px;
+    /* padding: 16px; */
+    border-top: 40px solid #e0ebf9;
+    /* padding: 26px 0; */
+    line-height: 69px;
+    width: 750px;
+}
+
+.no-data {
+    border-top: 1px solid #eee;
+    width: 750px;
+    padding: 16px;
+    color: #8a8383;
 }
 
 #footer {
     background:linear-gradient(to right, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
     height: 333px;
-    margin-top: 36px;
+    margin-top: 126px;
 }
 
 #footer .text-footer {
@@ -443,7 +479,7 @@ marquee {
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(0,0,0,.4);
+    background-color: rgba(0,0,0,.4);
 }
 
 #modal.open {
@@ -520,7 +556,7 @@ marquee {
 @keyframes modalFadein {
     from {
         opacity: 0.2;
-        transform: translateY(-100px);
+        transform: translateY(-130px);
     }
 
     to {
@@ -630,8 +666,8 @@ td {
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
     height: 250px;
     width: 350px;
-    border-radius: 4px;
     background-color: #fff;
+    
 }
 
 .ti-minus {
@@ -676,9 +712,8 @@ td {
 .roll {
     position: fixed;
     right: 0;
-    bottom: 5%;
+    bottom: 16%;
     margin-right: 50px;
-    opacity: .8;
 }
 
 .ti-arrow-up {
@@ -698,11 +733,3 @@ td {
 .roll a {
     text-decoration: none;
 }
-
-
-
-
-
-
-
-
