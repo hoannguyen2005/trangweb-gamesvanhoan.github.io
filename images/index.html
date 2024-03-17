@@ -1,464 +1,915 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nguyễn Văn Hoàn</title>
-    <link rel="stylesheet" href="bandienthoai.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/3ea1be7b13.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css">
+    <title>TRANG WED BÁN MÁY TÍNH</title>
 </head>
-
 <body>
-    <header>
-        <img src="images/logo.jpg" alt="">
-    </header>
-    <nav>
-        <div class="menu">
-            <ul>
-                <li><a href=""><img src="images/anh1.jpg" alt="" width="150px"></a></li>
-                <li><a href="#">Hồ Chí Minh <i class="fa-solid fa-arrow-down"></i></a>
+<header>
+    <img src="./anh10.png" alt="">
+</header>
+<nav>
+    <div class="container">
+        <ul>
+            <li><a href=""><img style="width: 150px;" src="images/anh11.png" alt=""></a></li>
+            <li><input type="text" placeholder="Bạn tìm gì..."><i class="fa-solid fa-magnifying-glass"></i></li>
+            <li><a href=""><button><i class="fa-solid fa-list"></i>Danh mục</button></a></li>
+            <li><a href=""><i class="fa-solid fa-location-dot"></i>Xem giá tại<br>HẢI DƯƠNG<i class="fas fa-sort-down"></i></a></li>
+            <li><a href=""><i class="fa-solid fa-phone"></i>Gọi mua hàng<br>1800.2097</a></li>
+            <li><a href=""><i class="fa-solid fa-location-dot"></i>Cửa hàng gần bạn</a></li>
+            <li><a href=""><i class="fa-solid fa-truck-fast"></i>Tra cứu đơn hàng</a> </li>
+            <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Giỏ hàng</button></a></li>
+            
+            <li></li>
+        </ul>
+    </div>
+</nav>
+<section class="menu-bar">
+    <div class="container">
+        <div class="menu-bar-content">
+          <ul>
+             <li><a href=""></a>Laptop</li>
+              <li><a href=""></a>Phụ kiện<i style="margin-left: 4px ; "class="fas fa-sort-down"></i>
+                 <div class="submenu">
+                     <ul>
+                        <li><a href="">Chuột máy tính</a></li>
+                        <li><a href="">Bàn phím</a></li>
+                        <li><a href="">Thiết bị mạng</a></li>
+                        <li><a href="">Giá đỡ Laptop</a></li>
+                        <li><a href="">Phần mềm</a></li>
+                        <li><a href="">Balo, túi chống sốc</a></li>
+                     </ul>
+                    </div>
                 </li>
-                <li><input type="text" placeholder="Bạn tìm gì..."><i class="fa-solid fa-magnifying-glass"></i></li>
-                <li>
-                    <a href=""><button><i class="fa-solid fa-cart-shopping"></i>Giỏ hàng</button></a>
-                </li>
-                <li><a href=""> lịch sử <br> đơn hàng</a></li>
-                <li><a href="">24h Công Nghệ</a></li>
-                <li><a href="">Hỏi đáp</a></li>
-                <li><a href="">Game app</a></li>
-            </ul>
+             <li><a href=""></a>PC</li>
+             <li><a href=""></a>Màn hình</li>
+             <li><a href=""></a>Build PC</li>
+             <li><a href=""></a>Linh kiện máy tính</li>
+             <li><a href=""></a>Máy in</li>
+          </ul>
         </div>
-    </nav>
-    <section class="menu-bar">
-        <div class="container">
-            <div class="menu-bar-content">
-                <ul>
-                    <li><a href=""><i class="fa-solid fa-phone"></i> Dien thoai</a></li>
-                    <li><a href=""><i class="fa-solid fa-laptop"></i>Laptop</a></li>
-                    <li><a href=""><i class="fa-solid fa-tablet"></i>Tablet</a></li>
-                    <li><a href=""><i class="fa-solid fa-headphones"></i>Headphone <i style="margin-left: 4px;"
-                                class="fa-solid fa-arrow-down"></i> </a>
-                        <div class="menu2">
-                            <ul>
-                                <li><a href="">Phụ kiện di động</a></li>
-                                <li><a href="">Sạc dự phòng</a></li>
-                                <li><a href="">Sạc, cáp </a></li>
-                                <li><a href="">Hub, cáp chuyển đổi </a></li>
-                                <li><a href=""> Ốp lưng điện thoại</a></li>
-                                <li><a href=""> Ốp lưng máy tính bảng </a></li>
-                                <li><a href=""> Miếng dán </a></li>
-                                <li><a href=""> Túi đựng Airpods </a></li>
-                                <li><a href=""> AirTag , Vỏ bảo vệ AirTag </a></li>
-                                <li><a href=""> Bàn phím , bút tablet </a></li>
-                                <li><a href=""> Gía đỡ điện thoại </a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href=""><i class="fa-solid fa-clock"></i>Đồng hồ , thông minh</a></li>
-                    <li><a href=""><i class="fa-solid fa-clock"></i>Đồng hồ , thời trang</a></li>
-                    <li><a href="">Máy cũ giá rẻ<i style="margin-left: 4px;" class="fa-solid fa-arrow-down"></i> </a>
-                        <div class="menu2">
-                            <ul>
-                                <li><a href="">Máy cũ giá rẻ</a></li>
-                                <li><a href="">Thu cũ đổi mới</a></li>
-                            </ul>
-                    </li>
-                    <li><a href=""><i class="fa-solid fa-laptop"></i>PC , Máy in <i style="margin-left: 4px;"
-                                class="fa-solid fa-arrow-down"></i> </a>
-                        <div class="menu2">
-                            <ul>
-                                <li><a href="">Máy in</a></li>
-                                <li><a href=""> Mực in</a></li>
-                                <li><a href="">Màn hình máy tính </a></li>
-                                <li><a href="">Máy tính để bàn</a></li>
-                                <li><a href="">Máy chơi game cầm tay</a></li>
-                                <li><a href="">Phần mềm </a></li>
-                            </ul>
-                    </li>
-                    <li><a href="">Sim, thẻ cào</a></li>
-                    <li><a href="">Trả góp , điện nước</a></li>
-                </ul>
+    </div>
+</section>
+<section class="baner-one">
+    <div class="container">
+        <img src="./anh14.png" alt="">
+    </div>
+</section>
+<section class="slider-product-one">
+    <div class="container">
+        <div class="slider-product-one-content">
+            <div class="slider-product-one-content-title">
+                <h2>Săn Sale Mỗi Ngày</h2>
             </div>
-        </div>
-    </section>
-    <section class="baner-one">
-        <div class="container">
-            <img src="images/anh2.jpg" alt="" width="100%" height="100%">
-        </div>
-    </section>
-    <section class="silder-product">
-        <div class="container">
-            <div class="silder-prodcut-content">
-                <div class="silder-product-content-tile">
-                    <h2>Sản Phẩm Bán chạy</h2>
-                </div>
-                <div class="silder-product-content-items">
-                    <div class="silder-product-content-item">
-                        <img src="images/anh6.jpg" alt="">
-                        <div class="silder-product-content-item-text">
-                            <li><img src="images/icon1.webp" alt="">
-                                <p>sale cực khủng</p>
-                            </li>
-                            <li>Realme Note 50 64GB</li>
+            <div class="slider-product-one-content-items">
+                    <div class="slider-product-one-content-item">
+                        <img src="./anh18.jpg" width="200" height="100">
+                        <div class="slider-product-one-content-item-text">
+                            <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                            <li><b>Laptop Acer Aspire 3 A315 510P 32EF i3 N305/8GB/256GB/Win11</b></li>
                             <li>Online giá rẻ</li>
-                            <li><a href="">32.990.000<sup>đ</sup> </a> <span> -6% </span></li>
-                            <li>10.000.000 <sup>đ</sup></li>
-                            <li>Quà 400.000 <sup>đ</sup></li>
+                            <li><del class="giacu">9.990.000<sup>đ</sup></del><span>-12%</span></li>
+                            <li><b class="giamoi">8.790.000<sup>đ</sup></b></li>
+                            <li>Quà <b>100.000<sup>đ</sup></b></li>
                             <li>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
                             </li>
+                        
                         </div>
                     </div>
-                    <div class="silder-product-content-item">
-                        <img src="images/anh3.jpg" alt="">
-                        <div class="silder-product-content-item-text">
-                            <li><img src="images/icon1.webp" alt="">
-                                <p>sale cực khủng</p>
-                            </li>
-                            <li>Realme Note 50 64GB</li>
+    
+                    <div class="slider-product-one-content-item">
+                        <img src="./anh18.jpg" width="200" height="100">
+                        <div class="slider-product-one-content-item-text">
+                            <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                            <li><b>Laptop Acer Aspire 3 A315 44P R9W8 R7 5700U/8GB/512GB/Win11</b></li>
                             <li>Online giá rẻ</li>
-                            <li><a href="">32.990.000<sup>đ</sup> </a> <span> -6% </span></li>
-                            <li>10.000.000 <sup>đ</sup></li>
-                            <li>Quà 400.000 <sup>đ</sup></li>
+                            <li><del class="giacu">12.990.000<sup>đ</sup></del><span>-11%</span></li>
+                            <li><b class="giamoi">11.490.000<sup>đ</sup></b></li>
+                            <li>Quà <b>100.000<sup>đ</sup></b></li>
                             <li>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
                             </li>
+                        
                         </div>
                     </div>
-                    <div class="silder-product-content-item">
-                        <img src="images/anh4.jpg" alt="">
-                        <div class="silder-product-content-item-text">
-                            <li><img src="images/icon1.webp" alt="">
-                                <p>sale cực khủng</p>
-                            </li>
-                            <li>Realme Note 50 64GB</li>
+    
+    
+                    <div class="slider-product-one-content-item">
+                        <img src="./anh19.jpg" width="200" height="100">
+                        <div class="slider-product-one-content-item-text">
+                            <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                            <li><b>Laptop HP 15s fq5229TU i3 1215U/8GB/512GB/Win11</b></li>
                             <li>Online giá rẻ</li>
-                            <li><a href="">32.990.000<sup>đ</sup> </a> <span> -6% </span></li>
-                            <li>10.000.000 <sup>đ</sup></li>
-                            <li>Quà 400.000 <sup>đ</sup></li>
+                            <li><del class="giacu">13.690.000<sup>đ</sup></del><span>-25%</span></li>
+                            <li><b class="giamoi">10.190.000<sup>đ</sup></b></li>
+                            <li>Quà <b>100.000<sup>đ</sup></b></li>
                             <li>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
                             </li>
+                        
                         </div>
                     </div>
-                    <div class="silder-product-content-item">
-                        <img src="images/anh5.jpg" alt="">
-                        <div class="silder-product-content-item-text">
-                            <li><img src="images/icon1.webp" alt="">
-                                <p>sale cực khủng</p>
-                            </li>
-                            <li>Realme Note 50 64GB</li>
+    
+    
+                    <div class="slider-product-one-content-item">
+                        <img src="./anh28.jpg" width="200" height="100">
+                        <div class="slider-product-one-content-item-text">
+                            <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                            <li><b>Laptop Asus Vivobook X415EA i3 1115G4/8GB/256GB/Win11</b></li>
                             <li>Online giá rẻ</li>
-                            <li><a href="">32.990.000<sup>đ</sup> </a> <span> -6% </span></li>
-                            <li>10.000.000 <sup>đ</sup></li>
-                            <li>Quà 400.000 <sup>đ</sup></li>
+                            <li><del class="giacu">10.990.000<sup>đ</sup></del><span>-22%</span></li>
+                            <li><b class="giamoi">8.490.000<sup>đ</sup></b></li>
+                            <li>Quà <b>100.000<sup>đ</sup></b></li>
                             <li>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
                             </li>
+                        
                         </div>
                     </div>
-                    <div class="silder-product-content-item">
-                        <img src="images/anh7.jpg" alt="">
-                        <div class="silder-product-content-item-text">
-                            <li><img src="images/icon1.webp" alt="">
-                                <p>sale cực khủng</p>
-                            </li>
-                            <li> OPPO Reno8 T 5G 256GB </li>
+    
+    
+                    <div class="slider-product-one-content-item">
+                        <img src="./anh21.jpg" width="200" height="100">
+                        <div class="slider-product-one-content-item-text">
+                            <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                            <li><b>Laptop Apple MacBook Air 13 inch M1 2020 8-core CPU/8GB/256GB/7-core GPU </b></li>
                             <li>Online giá rẻ</li>
-                            <li><a href="">10.990.000<sup>đ</sup> </a> <span> -20% </span></li>
-                            <li>8.790.000 <sup>đ</sup></li>
-                            <li>Quà 400.000 <sup>đ</sup></li>
+                            <li><del class="giacu">19.590.000<sup>đ</sup></del><span>-5%</span></li>
+                            <li><b class="giamoi">18.490.000<sup>đ</sup></b></li>
+                            <li>Quà <b>100.000<sup>đ</sup></b></li>
                             <li>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
                             </li>
                         </div>
                     </div>
                 </div>
+             </div> 
+        </div>
+    </div>
+</section>
+
+
+<section class="baner-one">
+    <div class="container">
+        <img src="./anh22.png" alt="">
+    </div>
+</section>
+<section class="slider-product-one">
+    <div class="container">
+        <div class="slider-product-one-content">
+            <div class="slider-product-one-content-title">
+                <h2>DEAL SỐC</h2>
             </div>
-        </div>
-    </section>
-    <section class="product-one">
-        <div class="container">
-            <div class="product-one-content">
-                <div class="product-one-content-tile">
-                    <h2>Điện Thoại Nổi Bật Nhất</h2>
-                    <ul>
-                        <li><a href="">Samsung Galaxy A72</a></li>
-                        <li><a href="">Iphone Galaxy A72</a></li>
-                        <li><a href=""></a>Samsung A92</li>
-                        <li><a href=""></a>Xem tất cả</li>
-                    </ul>
+            <div class="slider-product-one-content-items">
+                <div class="slider-product-one-content-item">
+                    <img src="./anh23.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Laptop Asus TUF Gaming F15 FX506HF i5 11400H/8GB/512GB/4GB RTX2050/144Hz/Win11</b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">18.990.000<sup>đ</sup></del><span>-15%</span></li>
+                        <li><b class="giamoi">15.990.000<sup>đ</sup></b></li>
+                        <li>Quà <b>900.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    
+                    </div>
                 </div>
-                <div class="product-one-content-product">
-                    <div class="product-one-content-product-item">
-                        <img src="images/anh8.jpg" alt="">
-                        <div class="product-one-content-product-item-text">
-                            <li><img src="images/icon2.webp" alt="">
-                                <p>sale cực khủng</p>
-                            </li>
-                            <li>Samsung Galaxy S24 Ulatra 12GB 256GB</li>
-                            <li>Online giá rẻ</li>
-                            <li><a href="">33.990.000<sup>đ</sup> </a></li>
-                            <li>29.490.000 <sup>đ</sup></li>
-                            <li>Quà 295.000 <sup>đ</sup></li>
-                            <li>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </li>
-                        </div>
+
+
+                <div class="slider-product-one-content-item">
+                    <img src="./anh24.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Laptop Acer Aspire 5 Gaming A515 58GM 51LB i5 13420H/16GB/512GB/4GB RTX2050/Win11 </b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">20.490.000<sup>đ</sup></del><span>-17%</span></li>
+                        <li><b class="giamoi">16.990.000<sup>đ</sup></b></li>
+                        <li>Quà <b>900.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    
                     </div>
-                    <div class="product-one-content-product-item">
-                        <img src="images/anh9.jpg" alt="">
-                        <div class="product-one-content-product-item-text">
-                            <li><img src="images/icon2.webp" alt="">
-                                <p>sale cực khủng</p>
-                            </li>
-                            <li>iPhone 13 128GB | Chính hãng VN/A</li>
-                            <li>Online giá rẻ</li>
-                            <li><a href="">18.990.000<sup>đ</sup> </a> </li>
-                            <li>14.490.000 <sup>đ</sup></li>
-                            <li>Quà 145.000 <sup>đ</sup></li>
-                            <li>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </li>
-                        </div>
+                </div>
+
+
+
+                <div class="slider-product-one-content-item">
+                    <img src="./anh25.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Laptop Lenovo Ideapad Gaming 3 15ACH6 R5 5500H/16GB/512GB/4GB RTX2050/144Hz/Win11</b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">18.990.000<sup>đ</sup></del></li>
+                        <li><b class="giamoi">18.490.000<sup>đ</sup></b></li>
+                        <li>Quà <b>900.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    
                     </div>
-                    <div class="product-one-content-product-item">
-                        <img src="images/anh10.jpg" alt="">
-                        <div class="product-one-content-product-item-text">
-                            <li><img src="images/icon2.webp" alt="">
-                                <p>sale cực khủng</p>
-                            </li>
-                            <li>iPhone 15 Pro Max 256GB|Chính hãng VN/A</li>
-                            <li>Online giá rẻ</li>
-                            <li><a href="">34.990.000<sup>đ</sup> </a></li>
-                            <li>30.790.000 <sup>đ</sup></li>
-                            <li>Quà 308.000 <sup>đ</sup></li>
-                            <li>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </li>
-                        </div>
+                </div>
+
+
+                <div class="slider-product-one-content-item">
+                    <img src="./anh26.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Laptop HP Gaming VICTUS 15 fa1139TX i5 12450H/16GB/512GB/4GB RTX2050/144Hz/Win11</b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">24.590.000<sup>đ</sup></del><span>-22%</span></li>
+                        <li><b class="giamoi">18.990.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    
                     </div>
-                    <div class="product-one-content-product-item">
-                        <img src="images/anh11.jpg" alt="">
-                        <div class="product-one-content-product-item-text">
-                            <li><img src="images/icon2.webp" alt="">
-                                <p>sale cực khủng</p>
-                            </li>
-                            <li>iPhone 14 Pro Max 128GB|Chính hãng VN/A</li>
-                            <li>Online giá rẻ</li>
-                            <li><a href="">29.990.000<sup>đ</sup> </a> </li>
-                            <li>27.290.000 <sup>đ</sup></li>
-                            <li>Quà 273.000 <sup>đ</sup></li>
-                            <li>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </li>
-                        </div>
-                    </div>
-                    <div class="product-one-content-product-item">
-                        <img src="images/anh12.jpg" alt="">
-                        <div class="product-one-content-product-item-text">
-                            <li><img src="images/icon2.webp" alt="">
-                                <p>sale cực khủng</p>
-                            </li>
-                            <li>iPhone 15 128GB|Chính hãng VN/A</li>
-                            <li>Online giá rẻ</li>
-                            <li><a href="">22.990.000<sup>đ</sup> </a> </li>
-                            <li>20.190.000 <sup>đ</sup></li>
-                            <li>Quà 202.000 <sup>đ</sup></li>
-                            <li>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </li>
-                        </div>
-                    </div>
-                    <div class="product-one-content-product-item">
-                        <img src="images/anh13.jpg" alt="">
-                        <div class="product-one-content-product-item-text">
-                            <li><img src="images/icon2.webp" alt="">
-                                <p>sale cực khủng</p>
-                            </li>
-                            <li>iPhone 14 Pro Max 128 GB| Chính hãng VN/A</li>
-                            <li>Online giá rẻ</li>
-                            <li><a href="">25.990.000<sup>đ</sup> </a> </li>
-                            <li>23.090.000 <sup>đ</sup></li>
-                            <li>Quà 231.000 <sup>đ</sup></li>
-                            <li>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </li>
-                        </div>
-                    </div>
-                    <div class="product-one-content-product-item">
-                        <img src="images/anh14.jpg" alt="">
-                        <div class="product-one-content-product-item-text">
-                            <li><img src="images/icon2.webp" alt="">
-                                <p>sale cực khủng</p>
-                            </li>
-                            <li>Xiaomi Redmi Note 12 8GB 128GB</li>
-                            <li>Online giá rẻ</li>
-                            <li><a href="">5.790.000<sup>đ</sup> </a> </li>
-                            <li>4.290.000 <sup>đ</sup></li>
-                            <li>Quà 43.000 <sup>đ</sup></li>
-                            <li>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </li>
-                        </div>
-                    </div>
-                    <div class="product-one-content-product-item">
-                        <img src="images/anh15.jpg" alt="">
-                        <div class="product-one-content-product-item-text">
-                            <li><img src="images/icon2.webp" alt="">
-                                <p>sale cực khủng</p>
-                            </li>
-                            <li>iPhone 15 Pro 128GB | Chính hãng VN/A</li>
-                            <li>Online giá rẻ</li>
-                            <li><a href="">28.990.000<sup>đ</sup> </a> </li>
-                            <li>26.290.000 <sup>đ</sup></li>
-                            <li>Quà 263.000 <sup>đ</sup></li>
-                            <li>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </li>
-                        </div>
-                    </div>
-                    <div class="product-one-content-product-item">
-                        <img src="images/anh16.jpg" alt="">
-                        <div class="product-one-content-product-item-text">
-                            <li><img src="images/icon2.webp" alt="">
-                                <p>sale cực khủng</p>
-                            </li>
-                            <li>Samsung Galaxy Z Flip5 256GB</li>
-                            <li>Online giá rẻ</li>
-                            <li><a href="">25.990.000<sup>đ</sup> </a> </li>
-                            <li>21.990.000 <sup>đ</sup></li>
-                            <li>Quà 220.000 <sup>đ</sup></li>
-                            <li>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </li>
-                        </div>
-                    </div>
-                    <div class="product-one-content-product-item">
-                        <img src="images/anh17.jpg" alt="">
-                        <div class="product-one-content-product-item-text">
-                            <li><img src="images/icon2.webp" alt="">
-                                <p>sale cực khủng</p>
-                            </li>
-                            <li>iPhone 11 64 GB| Chính hãng VN/A</li>
-                            <li>Online giá rẻ</li>
-                            <li><a href="">11.990.000<sup>đ</sup> </a> </li>
-                            <li>9.890.000 <sup>đ</sup></li>
-                            <li>Quà 99.000 <sup>đ</sup></li>
-                            <li>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </li>
-                        </div>
+                </div>
+
+
+
+                <div class="slider-product-one-content-item">
+                    <img src="./anh27.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Laptop MSI Gaming GF63 12UCX i5 12450H/8GB/512GB/4GB RTX2050/144Hz/Win11 </b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">17.990.000<sup>đ</sup></del><span>-15%</span></li>
+                        <li><b class="giamoi">15.290.000<sup>đ</sup></b></li>
+                        <li>Quà <b>900.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
                     </div>
                 </div>
             </div>
+             </div>
         </div>
-    </section>
-    <footer>
-        <div class="container">
-            <div class="footer-content row">
-                <div class="footer-content-item">
-                    <h3>Thông tin</h3>
-                    <p>Công ty NVH.vn</p>
-                    <p>Yên Nghĩa - Hà ĐÔNG - Hà Nội</p>
-                    <h3>Tổng đài hỗ trợ miễn phí</h3>
-                    <p>Gọi mua hàng 1800.2097 (7h30 - 22h00)</p>
-                    <p>Gọi khiếu nại 1800.2063 (8h00 - 21h30)</p>
-                    <p>Gọi bảo hành 1800.2064 (8h00 - 21h00)</p>
+    </div>
+</section>
+
+
+
+<section class="slider-product-one">
+    <div class="container">
+        <div class="slider-product-one-content">
+            <div class="slider-product-one-content-title">
+            </div>
+            <div class="slider-product-one-content-items">
+                <div class="slider-product-one-content-item">
+                    <img src="./anh30.png" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Laptop Acer Nitro 5 Gaming AN515 57 5669 i5 11400H/8GB/512GB/144Hz/4GB GTX1650/Win11</b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">27.790.000<sup>đ</sup></del><span>-32%</span></li>
+                        <li><b class="giamoi">15.990.000<sup>đ</sup></b></li>
+                        <li>Quà <b>900.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
                 </div>
-                <div class="footer-content row">
-                    <div class="footer-content-item">
-                        <h3>Liên hệ</h3>
-                        <p>Giới thiệu</p>
-                        <p>Liên hệ với chúng tôi</p>
-                        <p>Tin tức</p>
-                        <p>Hệ thống cửa hàng</p>
-                        <p>Trợ giúp</p>
-                    </div>
-                    <div class="footer-content row">
-                        <div class="footer-content-item">
-                            <h3>Hỗ trợ khách hàng</h3>
-                            <p>Hỏi đáp</p>
-                            <p>Đăng ký tài khoản</p>
-                            <p>Chính sách giao hàng</p>
-                            <p>Hệ thống cửa hàng</p>
-                            <p>Chính sách đổi trả hoàn tiền</p>
-                        </div>
-                    </div>
 
-                    <div class="footer-content-cocial">
-                        <i class="fa-brands fa-square-facebook"></i>
-                        <i class="fa-brands fa-youtube"></i>
-
-                        <i class="fa-brands fa-square-twitter"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
+                <div class="slider-product-one-content-item">
+                    <img src="./anh29.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Laptop Asus TUF Gaming F15 FX507ZC4 i5 12500H/16GB/1TB/4GB RTX3050/144Hz/Win11 </b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">25.990.000<sup>đ</sup></del><span>-19%</span></li>
+                        <li><b class="giamoi">20.990.000<sup>đ</sup></b></li>
+                        <li>Quà <b>900.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
                     </div>
-
                 </div>
-    </footer>
+
+
+                <div class="slider-product-one-content-item">
+                    <img src="./anh33.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Laptop HP Gaming VICTUS 15 fb1022AX R5 7535HS/16GB/512GB/4GB RTX2050/144Hz/Win11</b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">25.490.000<sup>đ</sup></del><span>-21%</span></li>
+                        <li><b class="giamoi">19.990.000<sup>đ</sup></b></li>
+                        <li>Quà <b>900.000<sup>đ</sup></b></li>
+
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+
+                        </li>
+                    
+                    </div>
+                </div>
+
+
+                <div class="slider-product-one-content-item">
+                    <img src="./anh31.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Laptop Lenovo Ideapad Gaming 3 15ACH6 R5 5500H/16GB/512GB/4GB RTX2050/144Hz/Win11</b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">28.990.000<sup>đ</sup></del></li>
+                        <li><b class="giamoi">27.990.000<sup>đ</sup></b></li>
+                        <li>Quà <b>900.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    
+                    </div>
+                </div>
+                
+                <div class="slider-product-one-content-item">
+                    <img src="./anh32.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Laptop MSI Gaming GF63 12UC i5 12450H/8GB/512GB/4GB RTX3050/144Hz/Win11 (803VN) </b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">18.990.000<sup>đ</sup></del><span>-8%</span></li>
+                        <li><b class="giamoi">17.290.000<sup>đ</sup></b></li>
+                        <li>Quà <b>900.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+             </div>
+             </div>
+        </div>
+    </div>
+</section>
+
+<section class="baner-one">
+    <div class="container">
+        <img src="./anh34.png" alt="">
+    </div>
+</section>
+
+
+<section class="slider-product-one">
+    <div class="container">
+        <div class="slider-product-one-content">
+            <div class="slider-product-one-content-title">
+            </div>
+            <div class="slider-product-one-content-items">
+                <div class="slider-product-one-content-item">
+                    <img src="./anh35.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giảm  Giá Mạnh </p></li>
+                        <li><b>Laptop Apple MacBook Air 13 inch M1 2020 8-core CPU/8GB/256GB/7-core GPU</b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">19.590.000<sup>đ</sup></del></li>
+                        <li><b class="giamoi">18.990.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    
+                    </div>
+                </div>
+
+
+                <div class="slider-product-one-content-item">
+                    <img src="./anh36.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giảm Giá Mạnh</p></li>
+                        <li><b>Laptop Apple MacBook Air 13 inch M2 2022 8-core CPU/8GB/256GB/8-core GPU (MLY13SA/A)</b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">27.090.000<sup>đ</sup></del></li>
+                        <li><b class="giamoi">26.490.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    
+                    </div>
+                </div>
+                    
+                    
+                <div class="slider-product-one-content-item">
+                    <img src="./anh37.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giảm Giá Mạnh</p></li>
+                        <li><b>Laptop HP 15s fq5229TU i3 1215U/8GB/512GB/Win11</b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">30.490.000<sup>đ</sup></del></li>
+                        <li><b class="giamoi">30.290.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    
+                    </div>
+                </div>
+                
+
+                        
+                <div class="slider-product-one-content-item">
+                    <img src="./anh38.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giảm Giá Mạnh</p></li>
+                        <li><b>Laptop Apple MacBook Air 15 inch M2 2023 8-core CPU/8GB/256GB/10-core GPU</b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">32.290.000<sup>đ</sup></del><span>-5%</span></li>
+                        <li><b class="giamoi">30.490.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    
+                    </div>
+                </div>
+                            
+                <div class="slider-product-one-content-item">
+                    <img src="./anh39.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giảm Giá Mạnh</p></li>
+                        <li><b>Laptop Apple MacBook Air 13 inch M2 2022 8-core CPU/16GB/512GB/10-core GPU (Z15Z0003L) </b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">39.190.000<sup>đ</sup></del></li>
+                        <li><b class="giamoi">35.990.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>      
+
+
+<section class="baner-one">
+    <div class="container">
+        <img src="./anh40.png" alt="">
+    </div>
+</section>
+
+
+<section class="slider-product-one">
+    <div class="container">
+        <div class="slider-product-one-content">
+            <div class="slider-product-one-content-title">
+            </div>
+            <div class="slider-product-one-content-items">
+                <div class="slider-product-one-content-item">
+                    <img src="./anh41.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Laptop Asus Vivobook 14X OLED K3405VC i5 13500H/16GB/512GB/4GB RTX3050/Win11</b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">29.490.000<sup>đ</sup></del><span>-15%</span></li>
+                        <li><b class="giamoi">24.990.000<sup>đ</sup></b></li>
+                        <li>Quà <b>100.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+
+                <div class="slider-product-one-content-item">
+                    <img src="./anh42.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Laptop HP Pavilion 15 eg2062TX i5 1235U/8GB/512GB/2GB MX550/Win11</b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">20.590.000<sup>đ</sup></del><span>-8%</span></li>
+                        <li><b class="giamoi">18.790.000<sup>đ</sup></b></li>
+                        <li>Quà <b>100.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    
+                    </div>
+                </div>
+
+
+                <div class="slider-product-one-content-item">
+                    <img src="./anh43.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Laptop Acer Gaming Nitro 5 AN515 58 769J i7 12700H/8GB/512GB/4GB RTX3050/144Hz/Win11 </b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">31.790.000<sup>đ</sup></del><span>-22%</span></li>
+                        <li><b class="giamoi">24.490.000<sup>đ</sup></b></li>
+                        <li>Quà <b>900.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+
+
+                <div class="slider-product-one-content-item">
+                    <img src="./anh44.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Laptop Lenovo Gaming Legion 5 16IRH8 i5 13500H/16GB/512GB/6GB RTX4050/165Hz/Win11 </b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">36.990.000<sup>đ</sup></del></li>
+                        <li><b class="giamoi">35.990.000<sup>đ</sup></b></li>
+                        <li>Quà <b>900.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+
+
+                <div class="slider-product-one-content-item">
+                    <img src="./anh45.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Laptop Dell Inspiron 15 3530 i7 1355U/16GB/512GB/2GB MX550/OfficeHS/Win11 </b></li>
+                        <li>Online giá rẻ</li>
+                        <li><b class="giamoi">25.290.000<sup>đ</sup></b></li>
+                        <li>Quà <b>100.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="baner-one">
+    <div class="container">
+        <img src="./anh46.png" alt="">
+    </div>
+</section>
+
+
+<section class="slider-product-one">
+    <div class="container">
+        <div class="slider-product-one-content">
+            <div class="slider-product-one-content-title">
+            </div>
+            <div class="slider-product-one-content-items">
+                <div class="slider-product-one-content-item">
+                    <img src="./anh47.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Laptop Acer Aspire 3 A315 510P 32EF i3 N305/8GB/256GB/Win11</b></li>
+                        <li>Online giá rẻ</li>
+                        <li><b class="giamoi">2.990.000<sup>đ</sup></b></li>
+                        <li>Quà <b>100.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    
+                    </div>
+                </div>
+
+                <div class="slider-product-one-content-item">
+                    <img src="./anh48.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Laptop Asus Zenbook S 13 OLED UX5304VA i7 1355U/16GB/512GB/Win11 </b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">39.990.000<sup>đ</sup></del><span>-20%</span></li>
+                        <li><b class="giamoi">31.790.000<sup>đ</sup></b></li>
+                        <li>Quà <b>100.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    
+                    </div>
+                </div>
+
+
+                <div class="slider-product-one-content-item">
+                    <img src="./anh49.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Laptop HP Elitebook 630 G10 i7 1355U/16GB/512GB/Win11</b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">27.790.000<sup>đ</sup></del><span>-7%</span></li>
+                        <li><b class="giamoi">25.690.000<sup>đ</sup></b></li>
+                        <li>Quà <b>100.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    
+                    </div>
+                </div>
+
+
+                <div class="slider-product-one-content-item">
+                    <img src="./anh50.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Laptop Asus ExpertBook B9 OLED B9403CVA i7 1355U/16GB/1TB/Win11 Pro</b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">49.990.000<sup>đ</sup></del><span>-26%</span></li>
+                        <li><b class="giamoi">36.990.000<sup>đ</sup></b></li>
+                        <li>Quà <b>100.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    
+                    </div>
+                </div>
+
+
+                <div class="slider-product-one-content-item">
+                    <img src="./anh51.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Laptop Surface Pro 9 i5 1235U/8GB/256GB/Win11</b></li>
+                        <li>Chỉ bán Online</li>
+                        <li><del class="giacu">29.990.000<sup>đ</sup></del><span>-6%</span></li>
+                        <li><b class="giamoi">27.990.000<sup>đ</sup></b></li>
+                        <li>Quà <b>100.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="baner-one">
+    <div class="container">
+        <img src="./anh52.png" alt="">
+    </div>
+</section>
+
+
+<section class="slider-product-one">
+    <div class="container">
+        <div class="slider-product-one-content">
+            <div class="slider-product-one-content-title">
+            </div>
+            <div class="slider-product-one-content-items">
+                <div class="slider-product-one-content-item">
+                    <img src="./anh53.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Laptop Acer Aspire 3 A315 510P 32EF i3 N305/8GB/256GB/Win11</b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">1.490.000<sup>đ</sup></del></li>
+                        <li><b class="giamoi">990.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    
+                    </div>
+                </div>
+
+                <div class="slider-product-one-content-item">
+                    <img src="./anh54.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Microsoft 365 Family 32/64bit chính hãng (1 năm, 6 tài khoản, 30 thiết bị) </b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">1.990.000<sup>đ</sup></del><span>-25%</span></li>
+                        <li><b class="giamoi">1.490.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+
+
+                <div class="slider-product-one-content-item">
+                    <img src="./anh55.png" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Microsoft Office Home & Student 2021 chính hãng (Vĩnh viễn, 1 thiết bị Windows/Mac)</b></li>
+                        <li>Online giá rẻ</li>
+                        <li><del class="giacu">2.990.000<sup>đ</sup></del><span>-26%</span></li>
+                        <li><b class="giamoi">2.190.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+
+
+                <div class="slider-product-one-content-item">
+                    <img src="./anh56.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Microsoft Windows 11 Home 64-bit chính hãng </b></li>
+                        <li>Online giá rẻ</li>
+                        <li><b class="giamoi">3.690.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+
+
+                <div class="slider-product-one-content-item">
+                    <img src="./anh57.jpg" width="200" height="100">
+                    <div class="slider-product-one-content-item-text">
+                        <li><img src="./anh19.webp" alt=""><p>Giá rẻ quá</p></li>
+                        <li><b>Microsoft Windows 11 Pro 64-bit chính hãng </b></li>
+                        <li>Online giá rẻ</li>
+                        <li><b class="giamoi">5.490.000<sup>đ</sup></b></li>
+                        <li>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-content row">
+            <div class="footer-content-item">
+                <h3>Thông tin</h3>
+                <p>Công ty MWG.vn</p>
+                <p>An phụ - Kinh Môn - Hải Dương</p>
+                <p>0384532704</p>
+            </div>
+         <div class="footer-content row">
+             <div class="footer-content-item">
+                <h3>Liên hệ</h3>
+                <p>Giới thiệu</p>
+                <p>Liên hệ với chúng tôi</p>
+                <p>Tin tức</p>
+                <p>Hệ thống cửa hàng</p>
+                <p>Trợ giúp</p>
+             </div>
+         <div class="footer-content row">
+             <div class="footer-content-item">
+                <h3>Hỗ trợ khách hàng</h3>
+                <p>Hỏi đáp</p>
+                <p>Đăng ký tài khoản</p>
+                <p>Chính sách giao hàng</p>
+                <p>Hệ thống cửa hàng</p>
+                 <p>Chính sách đổi trả hoàn tiền</p>
+            </div>
+         </div>
+
+         <div class="footer-content-cocial">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa fa-youtube"></i>
+
+            <i class="fa fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+          <div class="footer-copyright">
+            <img src="./anh58.png" alt="">
+            <img src="./anh59.png" alt="">
+          </div>
+    </div>
+</footer>
 </body>
-
 </html>
