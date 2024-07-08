@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header
+{
+  
+    width: 100%;
+    height: 100px ;
+  
+   display: flex;
+   background-color: yellow;
+}
+
+.header .menu{
+    width: 15%;
+    height: 100px;
+   
+  
+}
+
+.header .menu img{
+
+     width: 200px;
+     height: 100px;
+     margin-left: 30px;
+    
+}
+
+
+.header .address{
+    width: 15%;
+    height: 100px;
+ 
+    
+}
+
+.header .address  p{
+    float: left;
+    margin-left: 50px;
+    font-size:xx-large;
+}
+
+label{
+    width: 100%;
+    height: 50px;
+}
+label:hover{
+ background-color: rgb(247, 237, 237);
+ transition: 0s;
+}
+
+
+.header .search{
+    width: 15%;
+    height: 100px;
+   
+}
+
+.header .search input{
+    width: 100%;
+    height: 70px;
+ 
+    border-radius: 5px;
+    margin-top: 10px ;
+}
+
+.header .account{
+    width: 15%;
+    height: 100px;
+ 
+}
+
+.header .account .item{
+   width: 40%;
+   height: 70px;
+
+     margin: 10px 100px;
+     text-align: center;
+     background-color: #FFAC0A99;
+}
+
+.header .cart{
+    width: 15%;
+    height: 100px;
+  
+   
+}
+
+.header .cart .item {
+    width: 40%;
+    height: 70px;
+ 
+    margin: 10px 100px;
+     text-align: center;
+     background-color: #FFAC0A99;
+}
+
+.header .technology{
+    width: 15%;
+    height: 100px;
+  
+}
+
+.header .technology .item{
+   
+    text-align: center;
+    margin: 20px 100px;
+
+} 
+
+
+.header .my{
+    width: 15%;
+    height: 100px;
+  
+}
+
+.header .my .item{
+    text-align: center;
+    margin: 20px 100px;
+   
+}
+
+.header .game{
+    width: 15%;
+    height: 100px;
+ 
+}
+
+.header .game .item{
+    text-align: center;
+    margin: 20px 100px;
+
+}
+
+.menu-bar{
+    width: 100%;
+    height: 50px;
+}
+
+.menu-bar{
+    background-color: rgb(252,165,165);
+ 
+}
+
+.menu-bar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-bar ul li a {
+    color: rgb(11, 8, 8);
+    font-size: 15px;
+}
+
+.menu-bar ul li a i {
+    margin-right: 6px;
+    font-size: 16px;
+    
+}
+
+.menu-bar-content > ul > li{
+    padding: 15px 6px;
+    transform: all 0.3% ease;
+}
+
+.menu-bar ul li:hover {
+    background-color: aliceblue;
+}
+
+.menu-bar-content ul li {
+    position: relative;
+}
+
+.submenu{
+    position: absolute;
+    background-color: #ddd;
+    width: 300px;
+    height: auto;
+    left: 0;
+    top: 100%;
+    padding: 10px;
+    display: none;
+    
+}
+
+.submenu ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.submenu ul li {
+    padding: 6px 0;
+   
+}
+
+.submenu ul li:hover a {
+    color: rgb(244, 70, 35);
+}
+
+.submenu ul li:hover {
+    background: none;
+}
+
+.menu-bar-content ul li:hover .submenu {
+    display: block;
+}
+
+
+.baner-one {
+    margin-top: 30px;
+}
+
+
+.slider-product-one-content {
+    background-color: rgb(225,90,94);
+    padding: 12px;
+}
+.slider-product-one-content-title h2 {
+     font-style: italic;
+}
+
+.slider-product-one-content-items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.slider-product-one-content-item:hover > img{
+    transform: translateY(-20px);
+}
+
+.slider-product-one-content-item {
+    width: 19%;
+    background-color: white;
+    padding: 50px 12px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.slider-product-one-content-item > img {
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.slider-product-one-content-item-text{
+    padding-top: 20px;
+}
+
+.slider-product-one-content-item-text li {
+    margin-bottom: 6px;
+}
+
+.slider-product-one-content-item-text li:first-child {
+    height: 30px ;
+    width: 70%;
+    background-color: rgb(232,30,101);
+    display: inline-block;
+    margin-bottom: 20px;
+    align-items: center ;
+    line-height: 30px;
+    border-radius:40px ;
+    
+}
+
+.slider-product-one-content-item-text li:first-child p {
+    color: white;
+    font-size: 12px;
+}
+
+.slider-product-one-content-item-text li:first-child img {
+    width: 30px;
+    float: left;
+    margin-right: 6px;
+}
+
+.slider-product-one-content-item-text li:nth-child(2):hover{
+    color: rgb(56, 180, 234);
+}
+
+.giacu{
+    color: black;
+}
+
+.giamoi{
+    color: red ;
+}
+
+
+.slider-product-one-content-item-text li:last-child i {
+    color: rgb(251,109,44);
+}
+
+
+footer {
+    background-color: rgb(187, 185, 185);
+    margin-top: 100px;
+    padding: 50px 0 10px;
+}
+
+footer p{
+    color: black;
+}
+
+.footer-content {
+    justify-content: space-between;
+}
+
+
+.footer-content h3 {
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-content p {
+    margin-bottom: 6px;
+}
+
+.footer-content-social {
+    text-align: center;
+    padding: 50px 0 20px;
+}
+
+.footer-content-social i {
+    font-size: 20px;
+    margin-right: 12px;
+    cursor: pointer;
+}
